@@ -4,7 +4,7 @@ var textInput = document.querySelector("#text-input");
 
 var output = document.querySelector("#output");
 
-var serverUrl = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
+var serverUrl = "https://api.funtranslations.com/translate/minion.json";
 
 function getTransUrl(text) {
     return serverUrl + "?" + "text=" + text;
@@ -18,8 +18,8 @@ function errorHandler(err) {
 
 transButton.addEventListener("click", function click() {
 
-     // taking input
-     var inputText = textInput.value;
+    // taking input
+    var inputText = textInput.value;
 
     // calling the server
     fetch(getTransUrl(inputText))
