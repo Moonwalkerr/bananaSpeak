@@ -24,9 +24,13 @@ transButton.addEventListener("click", function click() {
     // calling the server
     fetch(getTransUrl(inputText))
         .then(response => response.json())
-        .then(json => console.log(json.contents.translated))
+        .then(json => {
+            var transText = json.contents.translated;
+            output.innerHTML = transText;
+        } )
         .catch(errorHandler)
 
+        
 
     // console.log("Clicked");
 
