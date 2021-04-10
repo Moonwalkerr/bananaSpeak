@@ -1,0 +1,77 @@
+body{
+    font-family:cursive;
+    margin:0px;
+    text-align: center;
+}
+
+#main{
+    font-size:16px;
+    height:40px;
+    margin-bottom:5px;
+    background-color: rgba(225, 240, 9, 0.972);
+    box-shadow:0 1px 4px #333;
+}
+headher h1{
+    margin:12px;
+    
+}
+
+img{
+    margin-top:8px;
+    border: 2px solid rgba(225, 240, 9, 0.972);
+    border-radius: 12px;
+    box-shadow:0 1px 7px #333;
+    height:30%;
+    width:200px;
+}
+
+textarea{
+    border: 2px solid rgba(225, 240, 9, 0.972);
+    border-radius: 12px;
+    padding:4px 12px;
+    background-color:rgba(34, 33, 33, 0.287);
+    margin-bottom:8px;
+    color:white;
+    
+    box-shadow:0 0px 1px black;
+}
+
+
+.container{
+    margin-top:0px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+
+.cont2{
+    margin:12px;
+    display:flex;
+    flex-direction: column;
+}
+
+#click-btn{
+    background-color:rgba(22, 209, 22, 0.883);
+    
+    box-shadow:0 1px 2px white;
+}
+
+#click-btn:hover{
+    background-color:rgba(225, 240, 9, 0.541);
+}
+
+#OutputText{
+    margin-top:4px;
+    
+}
+#output{
+    height:100px;
+    width:100%;
+    border: 2px solid rgba(225, 240, 9, 0.972);
+    border-radius: 12px;
+    background-color:rgba(51, 51, 51, 0.507);
+    color:yellow;
+    padding:4px 6px;   
+    box-shadow:0 3px 7px black;
+}

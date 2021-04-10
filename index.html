@@ -1,38 +1,31 @@
-<!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Translate</title>
 
-
-<style>
-    #output{
-        height:100px;
-        width:200px;
-        border: 1px solid black;
-       margin:1rem;
-    }
-</style>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <center> 
-        <h1>Banana Talk</h1>
-        <textarea  id="text-input" cols="30" rows="2"placeholder="Put Your sentence here"></textarea>
-        <br>
-        <br>
-        <button id="click-btn">Translate</button>
-    </center>
-    
-    
-    <br>
-    <div>Output 👇</div>
+    <header id="main">
+        <h2>Minions' Banana Talk Generator</h2>
+    </header>
+<div class="container">
+    <img src="./assets/minion.gif" alt="">
+    <div class="cont2">
+        <textarea id="text-input" cols="30" rows="2" placeholder="Put Your sentence here"></textarea>
+
+    <button id="click-btn">Translate</button>
+    <div id='OutputText'>Output 👇</div>
     <div id="output">
-
     </div>
-    
-    <script src="./app.js"></script>
-</body>
+    </div>
+</div>
 
+    <script src="./app.js"></script>
+    
+</body>
 </html>
+
+
