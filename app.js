@@ -4,10 +4,31 @@ var textInput = document.querySelector("#text-input");
 
 var output = document.querySelector("#output");
 
+var serverUrl = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
 
-transButton.addEventListener("click",function click(){
-    console.log("Clicked");
-    
-output.innerHTML = textInput.value;
+function getTransUrl(text) {
+    return serverUrl + "?" + "text=" + text;
+}
+
+
+function errorHandler(err) {
+    console.log("error occurred: " + err);
+}
+
+transButton.addEventListener("click", function click() {
+
+     // taking input
+     var inputText = textInput.value;
+
+    // calling the server
+    fetch(getTransUrl(inputText))
+        .then(response => response.json())
+        .then(json => console.log(json.contents.translated))
+        .catch(errorHandler)
+
+
+    // console.log("Clicked");
+
+    // output.innerHTML = textInput.value;
 
 });
