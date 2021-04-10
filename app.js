@@ -1,12 +1,13 @@
 var transButton = document.querySelector("#click-btn");
 var textInput = document.querySelector("#text-input");
 
+
+var output = document.querySelector("#output");
+
+
 transButton.addEventListener("click",function click(){
     console.log("Clicked");
-    console.log("input", textInput.value);
+    
+output.innerHTML = textInput.value;
+
 });
-
-
-
-
-console.log(textInput );
