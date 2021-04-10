@@ -1,6 +1,5 @@
 var transButton = document.querySelector("#click-btn");
-function clickCallback()
-{
-    console.log("clicked");
-}
-transButton.addEventListener("click",clickCallback());
+
+transButton.addEventListener("click",function click(){
+    console.log("Clicked");
+});
