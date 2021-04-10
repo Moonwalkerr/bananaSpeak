@@ -13,6 +13,7 @@ function getTransUrl(text) {
 
 function errorHandler(err) {
     console.log("error occurred: " + err);
+    alert("Something wrong with Server");
 }
 
 transButton.addEventListener("click", function click() {
