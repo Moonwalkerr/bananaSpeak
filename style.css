@@ -89,6 +89,7 @@ textarea{
 
 
 @media screen and (max-width:750px){
+    
     #output{  
     margin-bottom: 4px;
     height:180px;
@@ -122,16 +123,22 @@ textarea{
 
 
 @media screen and (max-width: 580px){
+    
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
     #main{
         font-size:30px;
     }
     
 img{
-    /* margin-top:8px; */
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 12px;
     box-shadow:0 1px 7px white;
-    height:450px;
-    width:200px;
+    height:250px;
+    width:90%;
+    margin-bottom: 10px;
 }
 }
