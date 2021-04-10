@@ -5,24 +5,21 @@ body{
 }
 
 #main{
-    font-size:16px;
-    height:40px;
-    margin-bottom:5px;
+    font-size:46px;
     background-color: rgba(225, 240, 9, 0.972);
     box-shadow:0 1px 4px #333;
 }
 headher h1{
     margin:12px;
-    
 }
 
 img{
-    margin-top:8px;
+    /* margin-top:8px; */
     border: 2px solid rgba(225, 240, 9, 0.972);
     border-radius: 12px;
     box-shadow:0 1px 7px #333;
-    height:30%;
-    width:200px;
+    height:500px;
+    width:400px;
 }
 
 textarea{
@@ -32,7 +29,8 @@ textarea{
     background-color:rgba(34, 33, 33, 0.287);
     margin-bottom:8px;
     color:white;
-    
+    height:200px;
+    font-size:36px;
     box-shadow:0 0px 1px black;
 }
 
@@ -46,14 +44,14 @@ textarea{
 
 
 .cont2{
-    margin:12px;
+    margin: 0px 22px;
     display:flex;
     flex-direction: column;
 }
 
 #click-btn{
     background-color:rgba(22, 209, 22, 0.883);
-    
+    font-size:26px;
     box-shadow:0 1px 2px white;
 }
 
@@ -63,10 +61,12 @@ textarea{
 
 #OutputText{
     margin-top:4px;
-    
+    font-size:26px;
 }
 #output{
-    height:100px;
+ 
+    height:200px;
+    font-size:36px;
     width:100%;
     border: 2px solid rgba(225, 240, 9, 0.972);
     border-radius: 12px;
